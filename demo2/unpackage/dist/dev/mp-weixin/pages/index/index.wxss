@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.custom-image-size {
+  width: 414px !important;
+  height: 150px !important;
+}
+.swiper-image {
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+.scroll-view_H {
+  white-space: nowrap;
+  width: 100%;
+}
+.scroll-view-item_H {
+  display: inline-block;
+  width: 25%;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.scroll-view-item_H ._img {
+  width: 80rpx;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.MsgList {
+  width: 92%;
+  margin-left: 4%;
+  max-width: 690rpx;
+  height: auto;
+}
+.MsgList .MlSon {
+  border-radius: 12rpx;
+}
+.MsgList .MlSon .MlSonvBox {
+  padding: 24rpx 32rpx;
+  height: 168rpx;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  margin-top: 10px;
+}
+.MsgList .MlSon .MlSonvBox .SonOfImg {
+  border: 1px solid green;
+  width: 164rpx;
+  height: 100%;
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+.MsgList .MlSon .MlSonvBox .SonOfImg .Img {
+  width: 100%;
+  height: 100%;
+}
+.MsgList .MlSon .MlSonvBox .SonOfName {
+  width: 428rpx;
+  height: 100%;
+}
+.MsgList .MlSon .MlSonvBox .SonOfName .SNTop {
+  width: 100%;
+  height: 88rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 44rpx;
+  color: #06121E;
+  font-size: 28rpx;
+}
+.MsgList .MlSon .MlSonvBox .SonOfName .SNBom {
+  width: 100%;
+  height: 34rpx;
+  line-height: 34rpx;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18rpx;
+}
+
